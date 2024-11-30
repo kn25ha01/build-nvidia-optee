@@ -50,3 +50,33 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+###
+# mac
+.DS_Store
+
+# src
+aarch64--glibc--stable-final/
+atf_src/
+kernel_src/
+Linux_for_Tegra/
+nvidia-jetson-optee-source/optee/optee_client/
+nvidia-jetson-optee-source/optee/optee_os/
+nvidia-jetson-optee-source/optee/optee_test/
+nvidia-jetson-optee-source/optee/samples/cpubl-payload-dec
+nvidia-jetson-optee-source/optee/samples/ftpm-helper
+nvidia-jetson-optee-source/optee/samples/hwkey-agent
+nvidia-jetson-optee-source/optee/samples/luks-srv
+nvidia-jetson-optee-source/optee/samples/ms-tpm-20-ref
+nvidia-jetson-optee-source/optee/samples/LICENSE
+nvidia-jetson-optee-source/optee/samples/Makefile
+nvidia-jetson-optee-source/optee/atf_and_optee_README.txt
+nvidia-jetson-optee-source/optee/tegra194-optee.dts
+nvidia-jetson-optee-source/optee/tegra234-optee.dts
+nvidia-jetson-optee-source/nvcommon_build.sh
+nvidia-jetson-optee-source/optee_src_build.sh
+
+# build
+nvidia-jetson-optee-source/optee/build/
+nvidia-jetson-optee-source/optee/install/
+nvidia-jetson-optee-source/optee/tegra194-optee.dtb
